@@ -1,0 +1,33 @@
+{
+  "name": "spendwise",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A simple Node.js, Express, and MongoDB backend project for students to learn JWT authentication and basic CRUD operations.",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Devansh028/SpendWise.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Devansh028/SpendWise/issues"
+  },
+  "homepage": "https://github.com/Devansh028/SpendWise#readme"
+}
